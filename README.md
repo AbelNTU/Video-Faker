@@ -15,11 +15,14 @@
 ## Implement
 ### 1. programming language
 - **Python 3** (3.5 or newer)
--- [Anaconda](https://www.anaconda.com/what-is-anaconda/) is recommand here for using [opencv](https://opencv.org) easily
+-- [Anaconda](https://www.anaconda.com/what-is-anaconda/) is recommanded here for using [opencv](https://opencv.org) easily
 
-### 2. 
-
-
+### 2. Modules
+#### for transport file
+- socket(tcp/udp)
+#### for video processing
+- numpy
+- opencv
 
 
 
