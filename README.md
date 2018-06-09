@@ -28,3 +28,17 @@
 
 ## Reference
 - []()
+
+
+## Time schedle
+### (6/15) final project proposal
+proposal 格式  
+組員學號姓名  
+主題  
+簡介一下想達成什麼功能  
+以組為單位繳交(一組一份)  
+以一頁為限  
+計入report分數  
+請輸出成pdf檔上傳  
+繳交期限6/15下午一點前  
+遲交會斟酌扣分
