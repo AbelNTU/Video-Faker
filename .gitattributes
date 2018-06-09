@@ -1,0 +1,1 @@
+./test_image/image.zip filter=lfs diff=lfs merge=lfs -text
