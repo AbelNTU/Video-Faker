@@ -1,16 +1,16 @@
 # Video-Faker
 ![](./asset/faker.jpg)![](./asset/gg.jpg)
 ## Introduction
-  待補
+  傳輸影片時，有些內容不想讓外人偷看到，如果直接加密會顯得太明顯，所以選擇使用偽裝的方式包裝影片，讓偷看到的人以為是另外一個影片。
 
 ## Goal
-  待補
+  做出一個看起來沒用的影片，讓拿到的人認為這是不重要的資訊，直接忽略他。
   
 ## Target Users  
-  待補
   
-## Functions
-  待補
+  
+## Process
+  ![](./asset/PROCESS.jpg)
 
 ## Implement
 ### 1. programming language
