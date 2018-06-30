@@ -24,7 +24,7 @@ def encry(video_path, cover_path, transform_number, method = 0):
         os.mkdir(out_name)
         count = 0
     elif method == 0:
-        out = cv2.VideoWriter("../network/"+video_path.split('/')[-1][:-4]+"_encry.mp4",cv2.VideoWriter_fourcc(*'avc1'),30.0,(480,360))
+        out = cv2.VideoWriter("../network/"+video_path.split('/')[-1][:-4]+"_encry.mp4",cv2.VideoWriter_fourcc(*'avc1'),30.0,(479,359))
         #out = cv2.VideoWriter("../mp4/"+out_name+"_encry1.avi",cv2.VideoWriter_fourcc('M','J','P','G'),20.0,(480,360))
     else:
         print( 'There is no method %d you want to use \n 0 : Just output a mp4 file \n 1 : Out a series of picture' %
@@ -38,8 +38,8 @@ def encry(video_path, cover_path, transform_number, method = 0):
             cover_cap.release()
             cover_cap = cv2.VideoCapture(str(cover_path))
             cover_ret, cover_frame = cover_cap.read()
-        origin_frame = resize(origin_frame,480,360)
-        cover_frame = resize(cover_frame,480,360)
+        origin_frame = resize(origin_frame,479,359)
+        cover_frame = resize(cover_frame,479,359)
         blur = np.uint8(np.ceil(origin_frame / transform_number))
         blur = blur+np.uint8(np.ceil(cover_frame / 2))
         
