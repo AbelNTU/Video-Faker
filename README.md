@@ -16,6 +16,9 @@
 ### 1. Steps
   <img src="/asset/interface.png" width="250" height="270">
   
+  當client端要求接收影片時，呈現的介面如上圖所示。首先輸入server端的IP Address，假設server 的IP Address 是140.112.253.33，則以相同的格式分別在四格內輸入140、112、253、33。接下來輸入對應的Port Number以及密碼，而這些資訊將會由server連同IP Address 事先一同告知。輸入完成後點選"檢查(Check)"驗證密碼。
+  成功驗證密碼以後，將會顯示server端可以傳送的影片清單。選完欲傳送的影片後，即可選擇以Mode A，也就是影片加密的方法傳送影片。傳送完成後，點選Mode B 進行影片解密。解密完成後即可點選"View" 觀看影片。
+  
 ## Implement
 ### 1. programming language
 - **Python 3** (3.5 or newer)
