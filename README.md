@@ -11,8 +11,11 @@
   
   
 ## Process
-  ![](./asset/35266431_2078506408887025_8329742389421801472_n.jpg)
+![](./asset/35266431_2078506408887025_8329742389421801472_n.jpg)
 
+### 1. Steps
+  <img src="/asset/interface.png" width="250" height="270">
+  
 ## Implement
 ### 1. programming language
 - **Python 3** (3.5 or newer)
